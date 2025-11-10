@@ -26,6 +26,9 @@
     <loc>/blog/post-1/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
+    <loc>/blog/post-1-1/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/nextjs/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
@@ -45,6 +48,9 @@
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/technology/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/test/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
