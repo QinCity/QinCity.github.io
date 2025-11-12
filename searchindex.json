@@ -9,4 +9,4 @@
   "searchKeyword": "",
   "categories": "Software",
   "tags": "",
-  "content":"之前学习的时候，总是看其他人的博客，学习他人的经验，所以现在也希望记录一下自己学习的过程。最近使用Obsidian做笔记，发现也可以用来写Blog，所以也花了点时间来配置，下面是我的配置过程。\n配置环境 系统：MacOS\n应用：Obsidian+git+PicGo+Hugo\n配置流程 Hugo "}]
+  "content":"之前学习的时候，总是看其他人的博客，学习他人的经验，所以现在也希望记录一下自己学习的过程。最近使用Obsidian做笔记，发现也可以用来写Blog，所以也花了点时间来配置，下面是我的配置过程。\n环境 系统：MacOS\n应用：Obsidian+git+PicGo+Hugo\n配置流程 准备工作 Github账号 科学上网 Hugo 安装 brew update brew install hugo [!tip]\n下载速度太慢\n终端使用命令加速\ngrgr 参考 使用-obsidian-一键发布博客 Obsidian+Hugo：我的博客笔记工作流 "}]
