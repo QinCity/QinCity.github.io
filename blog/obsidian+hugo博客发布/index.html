@@ -138,13 +138,13 @@
 
 
 <meta property="og:title" content="Obsidian&#43;Hugo：博客发布" />
-<meta property="og:description" content="之前学习的时候，总是看其他人的博客，学习他人的经验，所以现在也希望记录一下自己学习的过程。最近使用Obsidian做笔记，发现也可以用来写Blog，所以也花了点时间来配置，下面是我的配置过程。2r3r3" />
+<meta property="og:description" content="之前学习的时候，总是看其他人的博客，学习他人的经验，所以现在也希望记录一下自己学习的过程。最近使用Obsidian做笔记，发现也可以用来写Blog，所以也花了点时间来配置，下面是我的配置过程。" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/blog/obsidian&#43;hugo%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/" />
 
 
 <meta name="twitter:title" content="Obsidian&#43;Hugo：博客发布" />
-<meta name="twitter:description" content="之前学习的时候，总是看其他人的博客，学习他人的经验，所以现在也希望记录一下自己学习的过程。最近使用Obsidian做笔记，发现也可以用来写Blog，所以也花了点时间来配置，下面是我的配置过程。2r3r3" />
+<meta name="twitter:description" content="之前学习的时候，总是看其他人的博客，学习他人的经验，所以现在也希望记录一下自己学习的过程。最近使用Obsidian做笔记，发现也可以用来写Blog，所以也花了点时间来配置，下面是我的配置过程。" />
 
 
 
@@ -751,7 +751,11 @@
         <li><a href="#hugo">Hugo</a>
           <ol>
             <li><a href="#安装">安装</a></li>
-            <li><a href="#问题">问题</a></li>
+            <li><a href="#问题">问题</a>
+              <ol>
+                <li><a href="#q1-下载速度太慢">Q1: 下载速度太慢</a></li>
+              </ol>
+            </li>
           </ol>
         </li>
       </ol>
@@ -761,14 +765,7 @@
 </nav>
 </details>
 
-            <p>之前学习的时候，总是看其他人的博客，学习他人的经验，所以现在也希望记录一下自己学习的过程。最近使用Obsidian做笔记，发现也可以用来写Blog，所以也花了点时间来配置，下面是我的配置过程。<a href="#troubleshooting"
-
-
-
- 
-
-
->2r3r3</a></p>
+            <p>之前学习的时候，总是看其他人的博客，学习他人的经验，所以现在也希望记录一下自己学习的过程。最近使用Obsidian做笔记，发现也可以用来写Blog，所以也花了点时间来配置，下面是我的配置过程。</p>
 <h2 id="环境">环境</h2>
 <p>系统：MacOS</p>
 <p>应用：Obsidian+git+PicGo+Hugo</p>
@@ -782,12 +779,19 @@
 <h4 id="安装">安装</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew update
 </span></span><span style="display:flex;"><span>brew install hugo
-</span></span></code></pre></div><h4 id="问题">问题</h4>
-<p>下载速度太慢122<a id="troubleshooting"></a></p>
-<blockquote>
-<p><strong>终端使用命令加速</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>grgr
-</span></span></code></pre></div></blockquote>
+</span></span></code></pre></div><p>[下载太慢](#Q1:download slow)</p>
+<h4 id="问题">问题</h4>
+<h5 id="q1-下载速度太慢">Q1: 下载速度太慢<a id="Q1:download slow"></a></h5>
+<p><strong>解决方法：使用代理下载</strong></p>
+<ol>
+<li>
+<p>在当前的终端中，输入以下命令(设置当前终端的代理，只在当前终端有效)：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>export https_proxy<span style="color:#f92672">=</span>http://127.0.0.1:7890 http_proxy<span style="color:#f92672">=</span>http://127.0.0.1:7890 all_proxy<span style="color:#f92672">=</span>socks5://127.0.0.1:7890
+</span></span></code></pre></div></li>
+<li>
+<p>继续进行下载操作</p>
+</li>
+</ol>
 <h2 id="参考">参考</h2>
 <ul>
 <li><a href="https://yaofun.top/posts/2024/03/%e4%bd%bf%e7%94%a8-obsidian-%e4%b8%80%e9%94%ae%e5%8f%91%e5%b8%83%e5%8d%9a%e5%ae%a2/"
